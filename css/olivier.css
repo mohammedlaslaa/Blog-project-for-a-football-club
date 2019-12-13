@@ -1,0 +1,51 @@
+.imgcar {
+    max-width: 1187px;
+    max-height: 450px;
+}
+
+@media screen and (max-width:992px) {}
+
+.thmatch {
+    border-bottom: none !important;
+}
+
+.tdmatch {
+    border-top: none!important;
+}
+
+.opa {
+    opacity: 0.80;
+}
+
+.col4 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.col4 img {
+    width: 100%;
+    
+}
+
+
+body .carousel-control-prev-icon, body .carousel-control-next-icon {
+    background-color: red;
+}
+
+body .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.imgcar2 {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.bordure2{
+    border: white 3px solid;
+}
+
+.opac{
+    opacity: 0.50;
+}

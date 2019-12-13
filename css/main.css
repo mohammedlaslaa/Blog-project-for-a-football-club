@@ -1,0 +1,124 @@
+.logo {
+    min-width: 75px;
+    min-height: 100px;
+    max-width: 150px;
+    max-height: 200px;
+}
+
+body {
+    background: url('') no-repeat top fixed;
+    background-size: cover;
+}
+
+.imghd {
+    max-height: 200px;
+}
+
+.bgcolor {
+    background-color: black;
+}
+
+.blackcolor li a {
+    color: black !important;
+}
+
+.styletext {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bordure {
+    border-color: black !important;
+}
+
+body {
+    background: url('../images/OM1.jpg') no-repeat top fixed;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url('../images/billeterie1.jpeg');
+}
+
+.img2 {
+    background-image: url('../images/boutique1.jpg');
+}
+
+.img1, .img2, .img3 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 150px;
+}
+
+.btnnav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}
+
+.btnnav:hover {
+    background-color: white;
+    color: black !important;
+}
+
+@media screen and (max-width: 992px) {
+    .img1, .img2, .img3 {
+        background-image: none;
+        height: auto !important;
+    }
+    .img1, .img2, .img3 {
+        margin-top: 2.5em;
+    }
+    .fconnect {
+        display: none !important;
+    }
+
+    .imgbtn {
+        align-items: flex-start !important;
+    }
+
+    .logotitle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wid100 {
+        width: 100% !important;
+    }
+
+}
+
+.image1 {
+    width: 200px;
+}
+
+.image2 {
+    width: 350px;
+}
+
+.coucou {
+    height: auto;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 3px;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+footer {
+    background-color: rgb(20, 19, 19);
+}
+
+.coucou {
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+}

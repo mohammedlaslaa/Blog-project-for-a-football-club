@@ -1,0 +1,160 @@
+.imgart {
+    min-width: 250px;
+    min-height: 167px;
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.imgshop {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.mybtn {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.opac {
+    opacity: 0.9;
+}
+
+.inputnumber {
+    width: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 1.9em;
+        margin: 0 auto;
+    }
+
+    .imgpre {
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
+
+    .divpre {
+        height : 250px !important;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .divpre {
+        height : 200px !important;
+    }
+
+    .divwidth {
+        height: 150px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.4em;
+        width: 75%;
+    }
+    .mybtn {
+        font-size: 0.9em;
+    }
+    .width100 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bord div:nth-child(odd):after {
+        content: "";
+        position: absolute;
+        top: 25%;
+        right: 0;
+        height: 50%;
+        width: 50%;
+        border-right: 1px solid gray;
+    }
+    .bord div:first-child:before {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: 0;
+        height: 1px;
+        width: 50%;
+        border-bottom: 1px solid gray;
+    }
+    .bord div:nth-child(0n+2):before {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: 0;
+        height: 1px;
+        width: 50%;
+        border-bottom: 1px solid gray;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .w70 {
+        width: 100% !important;
+    }
+}
+
+.mybtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.imgteam {
+    min-width: 189px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.divwidth {
+    height: 200px;
+}
+
+.divwidth img {
+    box-sizing: content-box;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    max-width: 400px;
+}
+
+
+.mainprehome {
+    min-height: 100%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.logopre {
+    width: 100%;
+}
+
+.reltext {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.para {
+    font-size: 2em;
+}
+
+.mainprehome {
+    font-family: 'Alata', sans-serif;;
+}

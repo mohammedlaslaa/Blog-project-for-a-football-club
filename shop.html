@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/mohammed.css">
+    <title>Boutique</title>
+</head>
+
+<body class="bg-transparent">
+    <header class="container-fluid headone">
+        <div class="row w-75 mx-auto h-100 bgcolor wid100">
+            <div class="col-4 h-100 p-3">
+                <div class="row">
+                    <div class="col-xl-6 text-center">
+                        <a href="accueil.html"><img src="./images/logo.png" class="logo img-fluid w-100 h-100" alt="logo"></a>
+
+                    </div>
+                    <div class="col-xl-6 text-center text-white align-self-center logotitle">
+                        <h2>Olympique Lièvin</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 d-flex align-items-end imgbtn">
+                <div class="row justify-content-end h-75 w-100">
+                    <div class="img1 w-100 h-100 col-12 col-lg-3">
+                        <a href="billeterie.html">
+                            <button class="bn btnnav w-100 text-white font-weight-bold">Billeterie</button>
+                        </a>
+                    </div>
+                    <div class="img2 w-100 h-100 col-12 col-lg-3 ml-2">
+                        <a href="shop.html">
+                            <button class="bn btnnav w-100 text-white font-weight-bold">Boutique</button>
+                        </a>
+                    </div>
+                    <div
+                        class="img3 w-100 h-100 col-12 col-lg-3 ml-2 text-center d-flex justify-content-center align-items-center">
+                        <a href="connexion.html">
+                            <i class="fas fconnect fa-4x fa-sign-in-alt text-white"></i>
+                            <button class="bn btnnav w-100 text-white font-weight-bold">Connexion</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row w-75 mx-auto bg-white bordure wid100">
+            <nav class="w-100 mx-auto navbar navbar-expand-lg navbar-light bg-white border bordure">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto blackcolor">
+                        <li class="nav-item border-right px-2 bordure">
+                            <a class="nav-link" href="actualite.html">Actualité <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item border-right px-2 bordure">
+                            <a class="nav-link" href="team.html">Équipes</a>
+                        </li>
+                        <li class="nav-item border-right px-2 bordure">
+                            <a class="nav-link" href="calendrier-résultats.html">Calendrier/Résultats</a>
+                        </li>
+                        <li class="nav-item border-right px-2 bordure">
+                            <a class="nav-link" href="classement.html">Classement</a>
+                        </li>
+                        <li class="nav-item border-right px-2 bordure">
+                            <a class="nav-link" href="entrainement.html">Entrainement</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="formation.html">Formation</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid mb-2">
+            <div class="w-75 bg-white opac mx-auto border border-dark wid100 pb-2">
+                <h1 class="text-center mt-2 mb-3 py-2"> La boutique officielle club !</h1>
+                <div class="row w-100 mx-auto mt-2 mt-md-5 justify-content-around">
+                    <div class="col-xl-5 text-center border border-dark mt-2 mt-xl-0 p-3">
+                        <h4 class="mt-2 mt-xl-0">Maillot domicile</h4>
+                        <img src="./images/maillot-dom.jpg" alt="maillot_domicile" class="img-fluid imgshop">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi similique esse tempora, id
+                            reiciendis eligendi ratione magni nobis dolores ad repudiandae debitis veritatis at,
+                            doloremque sit qui sint quas nemo.</p>
+                        <form action="" id="shop">
+                            <div class="m-2">
+                                <select name="size" id="sizeshirt">
+                                    <option value="">--Sélectionner votre taille--</option>
+                                    <option value="sizes">S</option>
+                                    <option value="sizem">M</option>
+                                    <option value="sizel">L</option>
+                                    <option value="sizexl">XL</option>
+                                    <option value="sizexxl">XXL</option>
+                                    <option value="sizexxxl">3XL</option>
+                                </select>
+                            </div>
+                            <div class="m-2">
+                                <label for="" class="text-dark">Numéro de maillot :</label>
+                                <input type="number" class="inputnumber" max="99">
+                            </div>
+                            <div class="m-2">
+                                <select name="size" id="sizeshirt">
+                                    <option value="">--Sélectionner votre flocage--</option>
+                                    <option value="sizes">Griezmann</option>
+                                    <option value="sizem">CR7</option>
+                                    <option value="sizel">Messi</option>
+                                    <option value="sizexl">Pirlo</option>
+                                    <option value="sizexxl">Lacazette</option>
+                                    <option value="sizexxxl">Varane</option>
+                                </select>
+                            </div>
+                            <div class="m-2">
+                                <label for="" class="text-dark">Quantité :</label>
+                                <input type="number" class="inputnumber">
+                            </div>
+                            <div class="m-2">
+                                <p class="d-inline-block">Prix :</p>
+                                <p class="d-inline-block">69€90</p>
+                            </div>
+                            <div class="m-2">
+                                <button type="submit" class="bgcolor mybtn">Acheter</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-xl-5 text-center border border-dark mt-2 mt-xl-0 p-3">
+                        <h4 class="mt-2 mt-xl-0">Maillot Extérieur</h4>
+                        <img src="./images/maillot-ext.png" alt="maillot_domicile" class="img-fluid imgshop">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi similique esse tempora, id
+                            reiciendis eligendi ratione magni nobis dolores ad repudiandae debitis veritatis at,
+                            doloremque sit qui sint quas nemo.</p>
+                        <form action="" id="shop">
+                            <div class="m-2">
+                                <select name="size" id="sizeshirt">
+                                    <option value="">--Sélectionner votre taille--</option>
+                                    <option value="sizes">S</option>
+                                    <option value="sizem">M</option>
+                                    <option value="sizel">L</option>
+                                    <option value="sizexl">XL</option>
+                                    <option value="sizexxl">XXL</option>
+                                    <option value="sizexxxl">3XL</option>
+                                </select>
+                            </div>
+                            <div class="m-2">
+                                <label for="" class="text-dark">Numéro de maillot :</label>
+                                <input type="number" class="inputnumber" max="99">
+                            </div>
+                            <div class="m-2">
+                                <select name="size" id="sizeshirt">
+                                    <option value="">--Sélectionner votre flocage--</option>
+                                    <option value="sizes">Griezmann</option>
+                                    <option value="sizem">CR7</option>
+                                    <option value="sizel">Messi</option>
+                                    <option value="sizexl">Pirlo</option>
+                                    <option value="sizexxl">Lacazette</option>
+                                    <option value="sizexxxl">Varane</option>
+                                </select>
+                            </div>
+                            <div class="m-2">
+                                <label for="" class="text-dark">Quantité :</label>
+                                <input type="number" class="inputnumber">
+                            </div>
+                            <div class="m-2">
+                                <p class="d-inline-block">Prix :</p>
+                                <p class="d-inline-block">69€90</p>
+                            </div>
+                            <div class="m-2">
+                                <button type="submit" class="bgcolor mybtn">Acheter</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 coucou col-md-6 col-xl-6 col-sm-12">
+                    <h5>SPONSORS</h5>
+                    <img class="image1" src="images/flunch.png" alt="">
+                    <img class="image1" src="images/ca.png" alt="">
+                    <img class="image1" src="images/nike.png" alt="">
+                    <img class="image1" src="images/edf.png" alt="">
+                    <img class="image2 mt-2" src="images/pmu.png" alt="">
+                </div>
+
+                <div class="col-12 coucou col-xl-6 col-md-6 col-sm-12">
+                    <h5>CONTACTEZ-NOUS</h5>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 col-xl-6">
+                                <label for="inputEmail4">Email :</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6 col-xl-6">
+                                <label for="inputPassword4">Mot de passe :</label>
+                                <input type="password" class="form-control" id="inputPassword4"
+                                    placeholder="Mot de passe">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Adresse</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Adresse 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Appartement, Studio etc">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 col-xl-6">
+                                <label for="inputCity">Ville</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4 col-xl-4">
+                                <label for="inputState">Pays</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>France</option>
+                                    <option>Allemagne</option>
+                                    <option>Suisse</option>
+                                    <option>Belgique</option>
+                                    <option>Espagne</option>
+                                    <option>Portugal</option>
+
+                                </select>
+                            </div>
+                            <div class="form-group w-100">
+                                <label for="exampleFormControlTextarea1">Message :</label>
+                                <textarea class="form-control w-100" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                        </div>
+                        <button type="submit" class="btn btn-outline-danger">Envoyer</button>
+                    </form>
+                    <br>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/1de34be0f9.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
